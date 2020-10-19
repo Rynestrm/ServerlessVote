@@ -13,9 +13,11 @@ exports.handler = async (event) => {
   } else if (v === 'r') {
     votesArray[(0, 0, 0, 0)];
   }
+  console.log(JSON.stringify(votesArray));
+
   return {
     statusCode: 200,
-    header: { 'Access-Control-Allow-Origin': '*' },
+    headers: { 'Access-Control-Allow-Origin': '*' },
     body: JSON.stringify(votesArray),
   };
 };

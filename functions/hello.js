@@ -11,7 +11,7 @@ exports.handler = async (event) => {
   } else if (v === 'd') {
     votesArray[3] += 1;
   } else if (v === 'r') {
-    votesArray[(0, 0, 0, 0)];
+    votesArray[0, 0, 0, 0];
   }
   console.log(JSON.stringify(votesArray));
 

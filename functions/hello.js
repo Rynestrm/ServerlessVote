@@ -9,7 +9,7 @@ exports.handler = async (event) => {
 //   } else if {
 
 //   }
-  console.log(JSON.stringify(votesArray));
+  console.log(JSON.stringify(positonArray));
 
   return {
     statusCode: 200,

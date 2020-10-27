@@ -4,7 +4,7 @@ exports.handler = async (event) => {
   const lat = event.queryStringParameters.lat;
   const lng = event.queryStringParameters.lng;
   positonArray[0] = lat;
-  console.log(lat);
+  positonArray[1] = lat;
 //   if (lat) {
 //   } else if {
 
